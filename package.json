@@ -12,7 +12,7 @@
   "scripts": {
     "build": "lerna run build --stream",
     "clean": "lerna run clean --stream",
-    "exp": "yarn --cwd packages/mobile exp",
+    "expo": "yarn --cwd packages/mobile expo",
     "start": "lerna run --scope=server start --stream",
     "jest": "jest",
     "tests": "lerna run tests --stream",
@@ -22,7 +22,7 @@
     "tslint": "tslint --fix -p tsconfig.json -c tslint.json",
     "lint": "yarn eslint && yarn tslint",
     "seed": "lerna run --scope=server seed --stream",
-    "exp-publish": "lerna run --scope=mobile exp-publish --stream",
+    "expo-publish": "lerna run --scope=mobile expo-publish --stream",
     "watch": "spin watch",
     "heroku-postbuild": "lerna run heroku-postbuild --stream",
     "cli": "node tools/cli",
