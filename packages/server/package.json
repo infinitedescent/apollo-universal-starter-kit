@@ -160,6 +160,6 @@
     "ws": "^5.1.1"
   },
   "peerDependencies": {
-    "spinjs": "^0.4.0"
+    "spinjs": "git+ssh://git@github.com:infinitedescent/spinjs.git#feature/expo-cli"
   }
 }

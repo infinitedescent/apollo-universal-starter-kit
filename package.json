@@ -143,7 +143,7 @@
   },
   "dependencies": {
     "opencollective": "^1.0.3",
-    "spinjs": "^0.4.159"
+    "spinjs": "git+ssh://git@github.com:infinitedescent/spinjs.git#feature/expo-cli"
   },
   "resolutions": {
     "graphql": "0.13.2",

@@ -138,6 +138,6 @@
     "react-navigation": "^2.0.0"
   },
   "peerDependencies": {
-    "spinjs": "^0.4.0"
+    "spinjs": "git+ssh://git@github.com:infinitedescent/spinjs.git#feature/expo-cli"
   }
 }
